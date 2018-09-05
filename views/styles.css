@@ -1,0 +1,90 @@
+
+.header{
+    background-image: url("./headerphotoweb.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 800px;
+    
+}
+.container{
+    
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.hero-copy{
+    padding-top: em(70);
+    text-align:center;
+    
+}
+
+.hero {
+    height:100%;
+    width:100%;
+   
+}
+
+.headerName{
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size:50px;
+}
+
+.hero-copy hr {
+    max-width:29%;
+    border-color:white;
+    border-width:3px;
+    border-radius:3px;
+}
+
+.secondheader-name{
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size:50px;
+}
+
+.abouth1{
+    font-family: 'Kalam', cursive;
+    text-align:center;
+
+}
+
+.abouth1 hr{
+    border-radius:5px;
+    border-color:black;
+    border-width: 5px;
+    max-width:29%;
+    
+}
+
+.col-7{
+    border-color:black;
+}
+
+.contacth1{
+    font-family: 'Kalam', cursive;
+    text-align:center;
+}
+
+#container-fluid{
+    background-image: url('./headerphotoweb.jpg');
+    background-position: fixed;
+    height: 100%;
+    width:100%;
+
+}
+
+#poo{
+    background-image: url("http://hdqwalls.com/wallpapers/yosemite-sun-rays-4k-5j.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height: 800px;
+    text-align:center;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size:50px;
+}
