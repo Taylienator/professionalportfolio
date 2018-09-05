@@ -2,10 +2,12 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const path = require('path');
-var Mailchimp = require('mailchimp-api-v3');
 require('dotenv').config();
+var Mailchimp = require('mailchimp-api-v3');
+
 
 const app = express();
+const PORT = process.env.PORT || 8080;
 
 var mailchimp = new Mailchimp(process.env.API_KEY);
 
@@ -30,8 +32,8 @@ app.get('/', (req, res) =>{
     res.render('index' , data);
 });
 
-app.listen(8080, () => {
-    console.log(`listening at http://localhost:8080`);
+app.listen(PORT, () => {
+    console.log(`listening at http://localhost:${PORT}`);
 });
 
 app.get('/contact', (req, res) =>{
